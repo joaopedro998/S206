@@ -1,0 +1,60 @@
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+# dependencies
+/node_modules
+*/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+*/.DS_Store
+**/.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+/target
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+target/
+.idea
+.project
+.settings
+.classpath
+.vscode
+.java-version
+*.iml
+build/
+bin/
+.gradle
+gradle
+gradlew
+gradlew.*
+dependency-reduced-pom.xml
+examples/zip-release/*.jar
+karate-demo/activemq-data/
+karate-demo/*.pem
+karate-demo/*.jks
+karate-demo/*.der
+karate-core/*.pem
+karate-core/*.jks
+karate-core/*.der
+karate-robot/tessdata
+karate-junit4/src/test/java/com/intuit/karate/junit4/dev
+karate-robot/src/test/java/robot/dev
